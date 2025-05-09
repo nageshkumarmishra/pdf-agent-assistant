@@ -1,0 +1,102 @@
+
+/* Global styles */
+body {
+    background: #f7f9fc;
+    font-family: 'Segoe UI', sans-serif;
+    color: #1f2937;
+}
+
+/* Page layout */
+.block-container {
+    padding: 2rem 2rem 4rem;
+}
+
+/* Header and intro */
+.big-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 0.25rem;
+}
+.subtext {
+    font-size: 1.1rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+/* Form inputs */
+.stTextInput, .stSelectbox, .stMultiselect, .stFileUploader {
+    max-width: 600px;
+}
+
+/* Container box */
+.stBox {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Branded button */
+div.stButton > button {
+    background-color: #4F46E5 !important;
+    color: white !important;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: all 0.3s ease-in-out;
+}
+div.stButton > button:hover {
+    background-color: #4338CA !important;
+}
+
+/* Spinner and alerts */
+.css-1v0mbdj {
+    margin: 2rem 0;
+}
+.stAlert {
+    font-size: 0.95rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+/* Chat bubbles */
+.chat-user, .chat-agent {
+    max-width: 80%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+.chat-user {
+    background-color: #E0E7FF;
+    color: #1e3a8a;
+    align-self: flex-end;
+    margin-left: auto;
+}
+.chat-agent {
+    background-color: #f3f4f6;
+    color: #111827;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+/* Expander section */
+details summary {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #1f2937;
+}
+details[open] {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    padding: 1rem;
+    border-radius: 10px;
+}
