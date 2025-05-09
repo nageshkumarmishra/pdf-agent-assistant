@@ -1,3 +1,7 @@
 streamlit
 PyPDF2
 ollama
+pytest
+sentence-transformers
+scikit-learn
+langchain
