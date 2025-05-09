@@ -95,11 +95,3 @@ pip install -r requirements.txt
 MIT License — free to use and modify. Attribution appreciated!
 
 ---
-
-## 🙌 Credits
-
-Created by [Your Name](https://github.com/your-username) using:
-- Streamlit
-- LangChain
-- Ollama
-- HuggingFace Transformers
