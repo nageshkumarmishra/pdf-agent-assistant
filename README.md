@@ -95,3 +95,7 @@ pip install -r requirements.txt
 MIT License — free to use and modify. Attribution appreciated!
 
 ---
+
+## DEMO 
+
+![ezgif-25c378000c6e86](https://github.com/user-attachments/assets/5cb81cea-fc90-4ad5-b04c-f62a3e857d1a)
